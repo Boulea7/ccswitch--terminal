@@ -1,4 +1,4 @@
-# ccsw - Codebase Guide for AI Tools
+# ccswitch--terminal - Codebase Guide for AI Tools
 
 ## Project Overview
 

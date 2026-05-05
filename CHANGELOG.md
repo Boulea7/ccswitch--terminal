@@ -8,6 +8,10 @@ The format follows a simple Keep a Changelog style with `Added`, `Changed`, `Fix
 
 ## Unreleased
 
+No release-facing changes yet.
+
+## v0.1.3 - 2026-05-05
+
 ### Added
 
 - Added `ccsw accounts codex` / `cxsw accounts` and `ccsw status codex` / `cxsw status` so local Codex ChatGPT snapshots, active provider state, live auth mode, and route can be inspected without guessing from switch errors.

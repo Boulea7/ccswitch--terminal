@@ -8,7 +8,9 @@ The format follows a simple Keep a Changelog style with `Added`, `Changed`, `Fix
 
 ## Unreleased
 
-No release-facing changes yet.
+### Added
+
+- Added provider-level `--codex-websockets true|false` configuration, persisted across Codex switches and validated by `doctor`.
 
 ## v0.1.3 - 2026-05-05
 

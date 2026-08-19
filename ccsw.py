@@ -4409,7 +4409,8 @@ def _add_from_flags(conf: Dict[str, Any], args: argparse.Namespace) -> None:
             c["supports_websockets"] = existing_websockets
         if codex_websockets is not None:
             c["supports_websockets"] = codex_websockets
-        conf["codex"] = c
+        if args.codex_url or args.codex_fallback_url or args.codex_token:
+            c.pop("auth_mode", None)
     elif args.codex_url or args.codex_fallback_url or args.codex_token or codex_websockets is not None:
         c = conf.get("codex") or {}
         if args.codex_url:

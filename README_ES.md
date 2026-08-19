@@ -193,7 +193,7 @@ ccsw add pro --codex-auth-mode chatgpt
 cxsw pro
 ```
 
-Configura la política de WebSocket de Codex por provider con `--codex-websockets true|false`. Si se omite, los provider de terceros usan `false`; ChatGPT auth usa `true` cuando la sincronización de futuras sesiones está activada.
+Configura la política de WebSocket de Codex por provider con `--codex-websockets true|false`. Si se omite, los proveedores de terceros usan `false`; ChatGPT auth usa `true` cuando la sincronización de futuras sesiones está activada.
 
 Para mantener varias cuentas oficiales en la misma máquina, captura la cuenta actual como `pro`, luego inicia sesión y guarda la segunda cuenta como `pro1`:
 
